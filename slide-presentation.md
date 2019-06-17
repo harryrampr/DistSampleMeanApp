@@ -23,22 +23,34 @@ After using the app you will intuitively become aware of how the distribution of
 
 Population Models
 ========================================================
+left: 55%
+class: rslide
 
 You may select from a variety of population distributions:
-<div class="col2">
-<ul>
-<li>Normal</li>
-<li>Uniform</li>
-<li>T</li>
-<li>F</li>
-<li>Chi-square</li>
-<li>Exponential</li>
-</ul>
-<img src="./images/PopDist3.png" style="margin: 0 0 0 80px;">
-</div>
+
+- Normal
+- Uniform
+- T
+- F
+- Chi-square
+- Exponential
+
 For each population type, you may adjust its parameters and view their
 effect over the distribution of sample mean.
 
+***
+
+
+```r
+population <- rchisq(n=10000, df=5)
+hist(population,
+     xlab = "X Population",
+     main = "Population Histogram",
+     col = "#317EACDA",
+     border = "#BBBBBB")
+```
+
+<img src="slide-presentation-figure/popu-1.png" title="plot of chunk popu" alt="plot of chunk popu" style="display: block; margin: auto;" />
 
 Sampling
 ========================================================
