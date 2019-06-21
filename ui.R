@@ -134,7 +134,7 @@ ui <- fluidPage(
                                  class = "well-sm"),
                        tableOutput("sampMeansStats1"),
                        tableOutput("sampMeansStats2"),
-                       wellPanel(h4("Theorical Values", class = "nomargin"),
+                       wellPanel(h4("Theoretical Values", class = "nomargin"),
                                  class = "well-sm"),
                        tableOutput("sampMeansTheoric"))
             ),
