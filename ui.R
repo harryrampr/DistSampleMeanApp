@@ -8,13 +8,7 @@ library(shinythemes)
 ui <- fluidPage(
     theme = shinytheme("cerulean"),
     includeCSS("www/general.css"),
-    fluidRow(
-        column(9,
-               titlePanel("Sampling Distribution of the Sample Mean App")),
-        column(1,
-               actionButton(inputId = "helpBtn",
-                            label = "Help",
-                            class = "btn-primary btn-sm"))),
+    titlePanel("Sampling Distribution of the Sample Mean App"),
     sidebarLayout(
         sidebarPanel(
             h4("Population Distribution"),
@@ -87,6 +81,9 @@ ui <- fluidPage(
             actionButton(inputId = "sampReset",
                          label = "Reset",
                          class = "btn-warning"),
+            actionButton(inputId = "helpBtn",
+                         label = "Help",
+                         class = "btn-primary"),
 
             h4("Optional Settings", style = "margin-top: 50px;"),
             checkboxInput(inputId = "setRandSeed",

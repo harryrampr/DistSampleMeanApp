@@ -5,7 +5,7 @@ date: 06/17/2019
 autosize: true
 <h3 style="color: #ffffff;">Learn how it works...</h3>
 <div align="center">
-<img src="./images/AppScreen1.png">
+<img src="./images/AppScreen1.png" height=270>
 </div>
 
 
@@ -58,7 +58,7 @@ Sampling
 You can set the sample size, the number of repeats to do each time the "Draw Samples" button is used. A "Reset" button let you clear previous re-sampling data and start from zero. There is an option to set a random seed to ensure repeatable results.
 
 <div align="center">
-<img src="./images/SampDrawOpt4.png">
+<img src="./images/SampDrawOpt4.png" height=406>
 </div>
 
 
@@ -68,5 +68,5 @@ Results
 A histogram and summary statistics are generated for the population. Additional ones are updated after each sample draw for the sample and the sample mean distributions.  Visit our App at [https://bit.ly/2KT5Ouk](https://bit.ly/2KT5Ouk).
 
 <div align="center">
-<img src="./images/AppScreen5.png" height=430>
+<img src="./images/AppScreen5.png" height=410>
 </div>
